@@ -2,7 +2,18 @@
 
 import sys
 
-file = open(sys.argv[1], 'r')
+try:
+    arg = sys.argv[1]
+except:
+    print('\nI need a valid file to convert\n')
+    exit()
+
+if arg == '--help':
+    print('\nUsage: hypersexy.py [FILE]')
+    print('\nConverts color schemes from terminal.sexy to a format that is compatible with hyper.js\n')
+    exit()
+
+file = open(arg, 'r')
 file_contents = eval(file.read())
 colorscheme = {}
 
