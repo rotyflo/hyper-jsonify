@@ -18,7 +18,7 @@ python3 - `sudo apt install python3`
 
 `./install.sh`
 
-### Use
+### Usage
 
 ##### Get a file
 
