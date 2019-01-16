@@ -30,7 +30,7 @@ Click the `Export` button, then `Download` and save the file.
 
 ##### Run the script
 
-`hypersexy.py /path/to/filename.txt`
+`hypersexy /path/to/filename.txt`
 
 Copy and paste output at top of `.hyper.js`
 

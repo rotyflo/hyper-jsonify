@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo cp ./hypersexy.py /usr/local/bin
+sudo cp ./hypersexy /usr/local/bin
