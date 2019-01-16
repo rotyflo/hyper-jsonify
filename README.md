@@ -1,4 +1,4 @@
-# HYPERJSONIFY
+# HYPERSEXY
 
 ### Description
 
@@ -9,6 +9,10 @@ Converts color schemes from [terminal.sexy](https://terminal.sexy/) to a format 
 python3 - `sudo apt install python3`
 
 ### Installation
+
+`git clone https://github.com/rotyflo/hypersexy.git`
+
+`cd hypersexy`
 
 `chmod +x install.sh`
 
@@ -26,7 +30,7 @@ Click the `Export` button, then `Download` and save the file.
 
 ##### Run the script
 
-`hyperjsonify.py /path/to/filename.txt`
+`hypersexy.py /path/to/filename.txt`
 
 Copy and paste output at top of `.hyper.js`
 
